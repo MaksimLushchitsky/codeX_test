@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    white-space: pre;
+}
+
+body {
+    font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+    "Droid Sans Mono", monospace, monospace;
+    white-space: pre;
+    display: block;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: box;
+}
+
+.title h1 {
+    float: left;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+
+.input {
+    float: left;
+    margin: 20px;
+}
+
+#space {
+    white-space: pre;
+}
+
+.input_commands {
+    margin: 10px;
+}
